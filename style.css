@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbarMonstera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items:baseline;
+}
+#navFirst{
+    margin-left: 3rem;
+}
+
+#navMid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navMid div h4{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Allerta', sans-serif;
+    margin-left: 60px;
+}
+#navMid div h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#navEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 3rem;
+}
+#navEnd img{
+    margin-left: 2rem;
+}
+
+#midWhole{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#imgMain{
+    position: absolute;
+    width: 30%;
+    bottom: 0;
+    right: 0;   
+}
+
+ul{
+    margin-left: 3rem;
+}
+
+
+ul li{
+    font-family: 'Allerta', sans-serif;
+    font-size: 14px;
+
+}
+
+#monstera{
+    margin-top: 6rem;
+    font-size: 100px;
+    font-family:'Allerta', sans-serif;
+}
+
+#midWholePart13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+#midWholePart121 h1{
+    background-color:#466D50;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 14rem;
+    height: 3rem;
+    text-align:center;
+    font-family:'Allerta', sans-serif;
+    border-radius: 1.5rem;
+    color: #ffffff;
+    padding-top: 6px;
+}
+#midWholePart121 h1:hover{
+    cursor: pointer;
+    background-color: #06250ed1;
+}
+
+#midWholePart121 h1::after{
+    content:url(./photos/greaterThan.svg);
+}
+
+#midWholePart122{
+    display: none;
+}
+
+.text{
+    font-family: 'Allerta' , sans-serif;
+    font-size: 14px;
+}
